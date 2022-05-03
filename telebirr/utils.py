@@ -12,7 +12,7 @@ from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_v1_5 as Cipher_PKCS1_v1_5
 
 from base64 import b64decode,b64encode
-successUrl = 'https://us-central1-airtime-payment.cloudfunctions.net/payment/telebirr/paymentsuccess/1'
+successUrl = 'url'
 
 timestamp =  str(time.time()*1000)
 timestamp = timestamp[:len(timestamp)-5]
